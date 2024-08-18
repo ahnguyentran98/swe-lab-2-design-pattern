@@ -1,3 +1,5 @@
+package abstract_factory;
+
 import abstract_factory.abstract_class.Button;
 import abstract_factory.abstract_class.CheckBox;
 import abstract_factory.abstract_class.GUIFactory;
