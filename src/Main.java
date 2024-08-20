@@ -4,6 +4,7 @@ import abstract_factory.concrete_factory.PixelFactory;
 import adapter.AdapterClientApplication;
 import adapter.concrete_class.AudioPlayer;
 import adapter.target_interface.MediaPlayer;
+import decorator.DecoratorClientApplication;
 import factory_method.FactoryClientApplication;
 import observer.ObserverClientApplication;
 import singleton.ConfigurationManager;
@@ -42,8 +43,11 @@ public class Main {
 //        strategyClientApplication.use();
 
         /* 7.Observer*/
-        ObserverClientApplication observerClientApplication = new ObserverClientApplication();
-        observerClientApplication.observer();
+//        ObserverClientApplication observerClientApplication = new ObserverClientApplication();
+//        observerClientApplication.observer();
 
+        /* 8.Decorator*/
+        DecoratorClientApplication decoratorClientApplication = new DecoratorClientApplication();
+        decoratorClientApplication.serveCoffee();
     }
 }
